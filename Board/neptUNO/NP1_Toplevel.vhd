@@ -662,8 +662,8 @@ audio_i2s: entity work.audio_top
 		dac_LRCK  => i2s_lrclk,
 		dac_SCLK  => i2s_bclk,
 		dac_SDIN  => i2s_data,
-		L_data    => not audiol(15) & std_logic_vector(audiol(14 downto 0)),
-		R_data    => not audior(15) & std_logic_vector(audior(14 downto 0))
+		L_data    => audiol,
+		R_data    => audior
 	);			 
 	 
     process(MCLK)
