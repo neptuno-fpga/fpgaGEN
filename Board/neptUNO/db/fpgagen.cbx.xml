@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="fpgagen">
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|jt12:fm|jt12_top:u_jt12|jt12_op:u_op|jt12_logsin:u_logsin|altsyncram:sinelut_rtl_0" CBX_FILE_NAME="altsyncram_4481.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|jt12:fm|jt12_top:u_jt12|jt12_op:u_op|jt12_sh:phasemod_sh|altshift_taps:bits_rtl_0" CBX_FILE_NAME="shift_taps_jnm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|vdp:vdp|DualPortRAM:cram|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_mrl1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|SinglePortRAM:zram|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_pg41.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|dpram:vram_l1|dpram_dif:ram|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_h8t3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|vdp:vdp|DualPortRAM:bga_ci|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_amb1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|pll:U00|altpll:altpll_component" CBX_FILE_NAME="pll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|dpram:vram_l2|dpram_dif:ram|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_h8t3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|dpram:vram_u1|dpram_dif:ram|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_h8t3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|fx68k:fx68k_inst|nanoRom:nanoRom|altsyncram:nRam_rtl_0" CBX_FILE_NAME="altsyncram_0071.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|jt12:fm|jt12_top:u_jt12|jt12_op:u_op|jt12_exprom:u_exprom|altsyncram:explut_jt51_rtl_0" CBX_FILE_NAME="altsyncram_i581.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|vdp:vdp|DualPortRAM:bgb_ci|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_amb1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|vdp:vdp|DualPortRAM:obj_ci|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_vcc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|vdp:vdp|DualPortRAM:vsram1|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_stl1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|mist_video:mist_video|scandoubler:scandoubler|altsyncram:sd_buffer_rtl_0" CBX_FILE_NAME="altsyncram_32e1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|dpram:vram_u2|dpram_dif:ram|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_h8t3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|fx68k:fx68k_inst|uRom:uRom|altsyncram:uRam_rtl_0" CBX_FILE_NAME="altsyncram_ij61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|jt12:fm|jt12_top:u_jt12|jt12_pg:u_pg|jt12_pg_comb:u_comb|jt12_pg_sum:u_sum|lpm_mult:Mult0" CBX_FILE_NAME="mult_ibt.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|jt12:fm|jt12_top:u_jt12|jt12_eg:u_eg|altshift_taps:eg_V_rtl_0" CBX_FILE_NAME="shift_taps_cnm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|vdp:vdp|DualPortRAM:obj_ci2|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_vcc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|vdp:vdp|DualPortRAM:obj_visinfo|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_h9c1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|vdp:vdp|DualPortRAM:obj_spinfo|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_jcc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|vdp:vdp|DualPortRAM:vsram0|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_stl1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|Virtual_Toplevel:virtualtoplevel|vdp:vdp|obj_cache:obj_cache|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ujp3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NP1_Toplevel|mist_video:mist_video|osd:osd|altsyncram:osd_buffer_rtl_0" CBX_FILE_NAME="altsyncram_4le1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
