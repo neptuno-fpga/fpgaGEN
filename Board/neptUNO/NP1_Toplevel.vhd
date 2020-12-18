@@ -61,10 +61,9 @@ entity NP1_Toplevel is
         ear_i               : in    std_logic;
 		  
         -- I2S audio
-        i2s_mclk				: out   std_logic								:= '0';
-        i2s_bclk				: out   std_logic								:= '0';
-        i2s_lrclk				: out   std_logic								:= '0';
-        i2s_data				: out   std_logic								:= '0';			  
+        SCLK				: out   std_logic								:= '0';
+        LRCLK				: out   std_logic								:= '0';
+        SDIN				: out   std_logic								:= '0';			  
 
         -- VGA
         VGA_R               : out   std_logic_vector(5 downto 0)    := (others => '0');
@@ -292,7 +291,7 @@ component data_io
 
     signal direct_video : std_logic;
     signal direct_video_s : std_logic;
-    
+    signal MCLK_i2s     : std_logic := '0';
 begin
 
 
@@ -658,13 +657,14 @@ rightsd: component hybrid_pwm_sd
 audio_i2s: entity work.audio_top
 	port map(
 		clk_50MHz => clock_50_i,
-		dac_MCLK  => i2s_mclk,
-		dac_LRCK  => i2s_lrclk,
-		dac_SCLK  => i2s_bclk,
-		dac_SDIN  => i2s_data,
-		L_data    => audiol,
-		R_data    => audior
+		dac_MCLK  => MCLK_i2s,
+		dac_LRCK  => LRCLK,
+		dac_SCLK  => SCLK,
+		dac_SDIN  => SDIN,
+		L_data    => audiol, 
+		R_data    => audioR
 	);			 
+	 
 	 
     process(MCLK)
     begin
